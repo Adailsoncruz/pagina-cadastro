@@ -1,0 +1,21 @@
+h1 {
+    color:red;
+
+}
+ .paragrafo-1{
+    color: blue;
+ }
+ body{
+    font-family:sans-serif;
+ }
+
+ .btn{
+    background-color: blue;
+    width: 200px;
+    height: 60px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+ }

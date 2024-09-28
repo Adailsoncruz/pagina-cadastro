@@ -1,0 +1,104 @@
+body{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #a5a3a3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card{
+    width: 450px;
+    height: 500px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.topo{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topo{
+    color: aqua;
+}
+
+.meio{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 20px;
+    gap: 20px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 80px;
+}
+
+.input input{
+    width: 90%;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    background: #afa6a6;
+    outline: none;
+    padding-left: 5px;
+    transition: all 300ms ease-in-out;
+}
+
+.input input:hover{
+    border: 1px solid aqua;
+    height: 39px;
+    width: 89.8%;
+}
+
+.input input:focus{
+    border: 1px solid aqua;
+    height: 39px;
+    width: 89.8%;
+}
+
+.fim{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fim button{
+    width: 50%;
+    height: 35px;
+    border-radius: 10px;
+    color: black;
+    background: aqua;
+    font-weight: bold;
+    border-color: black;
+    cursor: pointer;
+    transition: all 300ms ease;
+
+}
+
+.fim button:hover{
+    background: none;
+    border: 2px solid aqua;
+    color: black;
+}
