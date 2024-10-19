@@ -11,5 +11,8 @@ const pagamento = `O ${pintor} vai cobrar o valor de ${calculo} pelo serviço`
 
 console.log(pagamento)
 
+function calcArea(base, altura){
+    return base * altura
+} 
 
 
