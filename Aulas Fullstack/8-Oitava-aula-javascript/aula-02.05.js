@@ -29,4 +29,4 @@ function calculo(n1,n2,op){
 
 }
 
-console.log(4,6, "soma")
+console.log(calculo(4,6, "soma"))
